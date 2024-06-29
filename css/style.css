@@ -2,11 +2,19 @@
 
 main{
     padding: 32px;
+    border: 1px;
 }
 .nav-container{
-    display: flex;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex ;
+    background-color: rgba(0, 0, 0, 0.68); 
     justify-content: space-between;
     align-items: center;
+    position:fixed;top:0;right:0;left:0;z-index:1030
+
+    
 }
 
 .logo-icon{
@@ -15,6 +23,8 @@ main{
     background-image: url(../assets/imageAicon.png);
     background-size: cover;
     border-radius: 50%;
+    border: 1px solid;
+    border-color: aliceblue;
 }
 
 nav>a{
@@ -32,6 +42,7 @@ border: 1px solid;
 .profile-content{
     display: flex;
     justify-content: space-evenly;
+    border: 1px solid;
 }
 .profile-item{
     text-align: center;
@@ -41,10 +52,12 @@ border: 1px solid;
     width: 70px;
     background-size: cover;
     border-radius: 50%;
+    
 }
 
 .profile1{
     background-image: url(../assets/team-1.jpg);
+    
 }
 .profile2{
     background-image: url(../assets/team-2.jpg);
