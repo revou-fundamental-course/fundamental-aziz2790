@@ -1,1 +1,55 @@
 /*ini css*/
+
+main{
+    padding: 32px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon{
+    height: 50px;
+    width: 50px;
+    background-image: url(../assets/imageAicon.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+nav>a{
+padding-left: 30px;
+padding-right: 30px;
+border: 1px solid;
+}
+
+.banner-container{
+    height: 350px;
+    width: 100%;
+    border: 1px solid;
+}
+
+.profile-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.profile-item{
+    text-align: center;
+}
+.profile-icon{
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.profile1{
+    background-image: url(../assets/team-1.jpg);
+}
+.profile2{
+    background-image: url(../assets/team-2.jpg);
+}
+.profile3{
+    background-image: url(../assets/team-3.jpg);
+}
+
