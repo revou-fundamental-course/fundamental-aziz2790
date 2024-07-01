@@ -36,10 +36,10 @@ border: 1px solid;
     height: 350px;
     width: 100%;
     border: 1px solid;
-
-    
 }
-
+.section{
+    padding-top: 70px;
+}
 .profile-content{
     display: flex;
     justify-content: space-evenly;
@@ -53,7 +53,6 @@ border: 1px solid;
     width: 70px;
     background-size: cover;
     border-radius: 50%;
-    
 }
 
 .profile1{
