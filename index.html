@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="css/style.css"></link>
     <link rel="stylesheet" href="css/bootstrap.min.css" >
     <link rel="stylesheet" href="css/bootstrap-icons.css" >
-
+    <!-- Template JS -->
+    <script src="js/script.js"></script>
+    
 </head>
 
 <body>
@@ -25,10 +27,10 @@
 
         </nav>
     </header>
-    <hr>
+  <hr>
     <main>
     <!-- ini home content -->
-     <hr/>
+     
      <section>
         <header>
             <h1>Hi Aziz, Welcome To Website</h1>
@@ -92,11 +94,39 @@
             
         </header>
         <article>
-            <p>ini adalah website portofolio saya</p>
-            <div class="banner-container"></div>
+            <div class="container-Message">
+                <div class="form-container">
+                    <form id="messageForm">
+                        <form id="messageForm">
+                            <label for="nama">Nama:</label>
+                            <input type="text" id="nama" name="nama">
+                            <label for="tanggalLahir">Tanggal Lahir:</label>
+                            <input type="date" id="tanggalLahir" name="tanggalLahir">
+                            <label for="jenisKelamin">Jenis Kelamin:</label>
+                            <div>
+                                <input type="radio" id="lakiLaki" name="jenisKelamin" value="Laki-Laki" checked>
+                                <label for="lakiLaki">Laki-Laki</label>
+                                <input type="radio" id="perempuan" name="jenisKelamin" value="Perempuan">
+                                <label for="perempuan">Perempuan</label>
+                            </div>
+                            <label for="pesan">Pesan:</label>
+                            <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea>
+                            <button type="button" onclick="displayMessage()">Submit</button>
+                        </form>
+                    </form>
+                </div>
+                
+                <div class="result-container">
+                    <h2>Result</h2>
+                    <p>Current time: <span id="currentTime"></span></p>
+                    <p><strong>Nama:</strong> <span id="displayNama"></span></p>
+                    <p><strong>Tanggal Lahir:</strong> <span id="displayTanggalLahir"></span></p>
+                    <p><strong>Jenis Kelamin:</strong> <span id="displayJenisKelamin"></span></p>
+                    <p><strong>Pesan:</strong> <span id="displayPesan"></span></p>
+                </div>
+
+            </div>
         </article>
      </section>
-        
-
 </body>
 </html>
