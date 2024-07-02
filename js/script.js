@@ -18,3 +18,17 @@ function displayMessage() {
     const now = new Date();
     document.getElementById('currentTime').innerText = now.toString();
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    function replaceName() {
+        let name = "";
+        while (!name) {
+            name = prompt("Halo, siapa nama Anda? Nama tidak boleh kosong.", "");
+        }
+        document.getElementById("name").innerText = name;
+    }
+    replaceName();
+
+    document.getElementById("tombol").addEventListener("click", replaceName);
+});
+

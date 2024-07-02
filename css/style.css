@@ -2,8 +2,9 @@
 
 main{
     padding: 32px;
-    border: 1px;
+    
 }
+
 .nav-container{
     padding: 5px;
     padding-left: 20px;
@@ -13,7 +14,14 @@ main{
     justify-content: space-between;
     align-items: center;
     position:fixed;top:0;right:0;left:0;
-       
+}
+.nav-font{
+    font-size: 25px;
+    color: aliceblue;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
 }
 
 .logo-icon{
@@ -26,13 +34,8 @@ main{
     border-color: aliceblue;
 }
 
-nav>a{
-padding-left: 30px;
-padding-right: 30px;
-border: 1px solid;
-}
-
 .banner-container{
+    padding-top: 100%;
     height: 100rem;
     width: 100%;
     border: 1px solid;
@@ -53,9 +56,8 @@ border: 1px solid;
     text-align: center;
 }
 .profile-icon{
-    
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     background-size: cover;
     border-radius: 50%;
 }
