@@ -33,9 +33,12 @@ border: 1px solid;
 }
 
 .banner-container{
-    height: 350px;
+    height: 100rem;
     width: 100%;
     border: 1px solid;
+    background-image: URL(../assets/20141011_134857.jpg);
+    background-size:auto;
+
 }
 .section{
     padding-top: 70px;
@@ -43,12 +46,14 @@ border: 1px solid;
 .profile-content{
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid;
-    }    
+
+}    
 .profile-item{
+    padding-top: 2%;
     text-align: center;
 }
 .profile-icon{
+    
     height: 70px;
     width: 70px;
     background-size: cover;
