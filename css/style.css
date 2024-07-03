@@ -49,6 +49,7 @@ main{
 .banner-container{
     padding-top: 45%; 
     background-size: cover; 
+    background: url(../assets/overlay-bg.jpg.jpg);
     background-position: center; 
     background-repeat: no-repeat; 
     width: 100%;
