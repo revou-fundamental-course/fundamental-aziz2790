@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Tambahkan URL gambar lain yang diinginkan
     ];
     let currentImageIndex = 0;
-    const changeInterval = 5000; // Ubah gambar setiap 5 detik
+    const changeInterval = 1000; // Ubah gambar setiap 5 detik
 
     function changeBannerImage() {
         currentImageIndex = (currentImageIndex + 1) % images.length;
