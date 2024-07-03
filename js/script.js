@@ -19,16 +19,34 @@ function displayMessage() {
     document.getElementById('currentTime').innerText = now.toString();
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-    function replaceName() {
-        let name = "";
-        while (!name) {
-            name = prompt("Halo, siapa nama Anda? Nama tidak boleh kosong.", "");
-        }
-        document.getElementById("name").innerText = name;
+// document.addEventListener("DOMContentLoaded", function() {
+//     function replaceName() {
+//         let name = "";
+//         while (!name) {
+//             name = prompt("Halo, siapa nama Anda? Nama tidak boleh kosong.", "");
+//         }
+//         document.getElementById("name").innerText = name;
+//     }
+//     replaceName();
+
+//     document.getElementById("tombol").addEventListener("click", replaceName);
+// });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const bannerContainer = document.querySelector('.banner-container');
+    const images = [
+        '../assets/20141011_134857.jpg',
+        '../assets/overlay-bg.jpg',
+        '../assets/20141011_135334.jpg',
+        // Tambahkan URL gambar lain yang diinginkan
+    ];
+    let currentImageIndex = 0;
+    const changeInterval = 5000; // Ubah gambar setiap 5 detik
+
+    function changeBannerImage() {
+        currentImageIndex = (currentImageIndex + 1) % images.length;
+        bannerContainer.style.backgroundImage = `url(${images[currentImageIndex]})`;
     }
-    replaceName();
 
-    document.getElementById("tombol").addEventListener("click", replaceName);
+    setInterval(changeBannerImage, changeInterval);
 });
-

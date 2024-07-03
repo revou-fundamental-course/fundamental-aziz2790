@@ -7,30 +7,38 @@
     <link  rel="icon" href="assets/imageAicon.png">
 
      <!-- Template Main CSS File -->
-    <link rel="stylesheet" href="css/style.css"></link>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" >
-    <link rel="stylesheet" href="css/bootstrap-icons.css" >
+    <!-- <link rel="stylesheet" href="css/bootstrap-icons.css" > -->
+    <!-- <link rel="stylesheet" href="css/style2.css"></link> -->
+
     <!-- Template JS file-->
     <script src="js/script.js"></script>
-   <!-- <script src="js/main.js"></script> -->
+   <script src="js/main.js"></script>
     
 </head>
 
 <body>
     <!-- ini header -->
-    <header class="nav-container">
-        <div class="logo-icon"></div>
-        <nav>
-            <a class="nav-font" href="#index">Home</a>
-            <a class="nav-font" href="#our-profile">Our Profile</a>
-            <a class="nav-font" href="#portofolio">Portofolio</a>
-            <a class="nav-font" href="#mesage">Message Us</a>
-        </nav>
-    </header>
-  <hr>
+   <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a class="logo-icon"></a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="#index">Home</a></li>
+          <li><a class="nav-link scrollto" href="#our-profile">Our Profile</a></li>
+          <li><a class="nav-link scrollto" href="#portofolio">Portofolio</a></li>
+          <li><a class="nav-link scrollto" href="#mesage">Message Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header>
+
     <main>
+
     <!-- ini home content -->
-     
+    
      <section class="section" id="index" >
         <header >
             <h1>Hi <span id="name">?</span>, Welcome To Website</h1>
@@ -76,15 +84,83 @@
 
       </section>
       <!-- ini portofolio -->
-      <section class="section" id="portofolio">
+      <section id="portofolio">
         <header>
-            <h1>portofolio</h1>
-         
-
+            <h1>Portofolio</h1>
         </header>
-        <article>
-            <p>ini adalah website portofolio saya</p>
-            <div class="banner-container"></div>
+        <article class="section">
+           <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        <img src="assets/DSC00302.JPG" class="img-fluid rounded b-shadow-a" alt="">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-7">
+                      <div class="about-info">
+                        <p><span class="title-s">Name: </span> <span>Aziz Muslim Sutisna</span></p>
+                        <p><span class="title-s">Profile: </span> <span>Information System Development</span></p>
+                        <p><span class="title-s">Date of Birth: </span> <span>27 Juni 1990</span></p>
+                        <p><span class="title-s">Email: </span> <span>muslim.aziz27@gmail.com</span></p>
+                        <p><span class="title-s">Phone: </span> <span>+62 858 4608 4427</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-mf">
+                    <p class="title-s">Skill</p>
+                    <span>VB.NET</span> <span class="pull-right">94%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 94%" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>HTML</span> <span class="pull-right">85%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>CSS</span> <span class="pull-right">75%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>PHP</span> <span class="pull-right">80%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>SYSTEM ANALYST</span> <span class="pull-right">96%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 96%" aria-valuenow="96" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        About me
+                      </h5>
+                    </div>
+                    <p class="lead" style="text-align: justify;">
+                      I have experience in product analysis with 5 years of 
+                      experience in the R&D department of PT DMC Teknologi Indonesia and 
+                      currently I am still working as a programmer at "PT Padama Bahtera Labelindo" starting in 2023.
+                    </p>
+                    <p class="lead">
+                      There are several projects that I have worked on and were successful, including 
+                      creating the Enty data application and the Candra web (scanning and tracking), until now I am still developing them.
+                    </p>
+                    <p class="lead">
+                      I am hereby ready physically and spiritually to join your company.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
         </article>
      </section>
        <!-- ini mesage -->
