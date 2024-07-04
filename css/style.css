@@ -3,7 +3,8 @@
 main{
     padding: 32px;
     background-color: #090a0ad2;
-    color:aliceblue
+    color:aliceblue ;
+    
 }
 
 .mobile-nav-toggle {
@@ -25,6 +26,7 @@ main{
     justify-content: space-between;
     align-items: center;
     position:fixed;top:0;right:0;left:0;
+    box-shadow: 0 0 15px rgb(62, 215, 138);
     
 }
 .nav-font{
@@ -32,8 +34,6 @@ main{
     color: aliceblue;
     padding-left: 30px;
     padding-right: 30px;
-
-
 }
 
 .logo-icon{
@@ -54,14 +54,17 @@ main{
     background-repeat: no-repeat; 
     width: 100%;
     height: auto;
+    
 }
 
 .section{
     padding-top: 70px;
 }
+
 .profile-content{
     display: flex;
     justify-content: space-evenly;
+    box-shadow: 0 0 15px rgb(62, 215, 138);
 
 }    
 .profile-item{
@@ -91,7 +94,7 @@ main{
     display: flex;
     justify-content: space-between;
     padding: 10px;
-
+    box-shadow: 0 0 15px rgb(62, 215, 138);
 }
 
 .form-container, .result-container {
@@ -258,6 +261,7 @@ button:hover {
   left: 100%;
   visibility: visible;
 }
+
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
