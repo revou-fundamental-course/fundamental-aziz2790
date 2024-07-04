@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener('DOMContentLoaded', function() {
     const bannerContainer = document.querySelector('.banner-container');
     const images = [
-        '/assets/20141011_134857.jpg',
+        'assets/20141011_134857.jpg',
         'assets/overlay-bg.jpg',
         'assets/20141011_135334.jpg',
         // Tambahkan URL gambar lain yang diinginkan

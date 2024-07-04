@@ -142,7 +142,7 @@ button:hover {
   padding: 0;
   display: flex;
   list-style: none;
-  align-items: center;
+  align-items: left;
 }
 
 .navbar li {
@@ -291,32 +291,34 @@ button:hover {
     position: fixed;
     top: 0;
     right: 0;
-    bottom: 0;
-    left: 0;
-    padding-top: 60px;
+    bottom:300px;
+    left: 200px;
+    padding-top: 10px;
     z-index: 999;
     transition: 0.3s;
   }
 
   .navbar ul.show {
     display: flex;
+    
   }
 
   .navbar li {
     padding: 10px 20px;
+   
+
   }
 
   .navbar a {
     color: #4e4e4e;
     padding: 10px 0;
+    
+    
   }
 
   .navbar a:hover,
   .navbar .active {
     color: #0078ff;
-  }
-  .banner-container{
-
   }
 }
 
