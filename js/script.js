@@ -35,13 +35,13 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener('DOMContentLoaded', function() {
     const bannerContainer = document.querySelector('.banner-container');
     const images = [
-        'assets/20141011_134857.jpg',
+        '/assets/20141011_134857.jpg',
         'assets/overlay-bg.jpg',
         'assets/20141011_135334.jpg',
         // Tambahkan URL gambar lain yang diinginkan
     ];
     let currentImageIndex = 0;
-    const changeInterval = 1000; // Ubah gambar setiap 5 detik
+    const changeInterval = 2000; // Ubah gambar setiap 5 detik
 
     function changeBannerImage() {
         currentImageIndex = (currentImageIndex + 1) % images.length;
